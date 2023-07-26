@@ -61,6 +61,7 @@ def main():
     doneSearching = False
 
     st.title("Clustering Exoplanets with K-means Algorithm")
+    st.subheader("Author: Luka Gorgadze")
     st.write("This application clusters exoplanets using the K-means algorithm and visualizes the results.")
 
     fetchData()
